@@ -38,6 +38,8 @@ namespace GildedRoseKata
             };
 
             var app = new GildedRose(Items);
+            
+            GildedRose.UpdateQuality((Items));
 
 
             for (var i = 0; i < 31; i++)

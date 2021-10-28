@@ -10,9 +10,14 @@ namespace GildedRoseKata
             this.Items = Items;
         }
 
-        public void UpdateQuality()
+        public static void UpdateQuality(IList<Item> items)
         {
-            for (var i = 0; i < Items.Count; i++)
+            foreach (var item in items)
+            {
+                items.
+            }
+            //for (var i = 0; i < Items.Count; i++)
+                
             {
                 if (Items[i].Name != "Aged Brie" && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
                 {
@@ -51,7 +56,7 @@ namespace GildedRoseKata
                     }
                 }
 
-                if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                if (Items[i].Name != "Sulfuras of Ragnaros")
                 {
                     Items[i].SellIn = Items[i].SellIn - 1;
                 }
@@ -59,6 +64,8 @@ namespace GildedRoseKata
                 if (Items[i].SellIn < 0)
                 {
                     if (Items[i].Name != "Aged Brie")
+                        
+                        // Items.AGED_BRIE
                     {
                         if (Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
                         {

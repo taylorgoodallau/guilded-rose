@@ -1,0 +1,8 @@
+- update quality method
+- Based on them Item there is a switch statement 
+- Each item that has unique logic will have the quality calculated seperatley 
+- Where the calculation is the same, a base class would be used. 
+- Unit test the indidual methods 
+- Unit test the higher order UpdateQualityMethods ( Pass an array of items, Assert that the quality on each of them is what is expected ) 
+
+
